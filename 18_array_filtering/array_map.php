@@ -85,7 +85,7 @@ $modified = array_map(function ($post) {
  *
  * So when is it more useful to use array_map then?
  *
- * It's more likely to be of use when you want to "transform" an object in some way...
+ * It's more likely to be of use when you want to "transform" an object in some way...("map over each post and turn it into an e.g. array")
  *
  * For example, let's say we want to turn each of our Post objects into an array
  *
@@ -149,7 +149,7 @@ $titleOnly = array_map(function ($post) {
 
 }, $posts);
 
-var_dump($titleOnly);
+//var_dump($titleOnly);
 
 /*
 
