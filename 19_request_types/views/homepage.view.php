@@ -4,8 +4,6 @@
 
 <h1>Submit Your Name</h1>
 
-<!--When the GET method is called, direct to the route /names-->
-
 <form method="POST" action="/19_request_types/names">
 
     <!--  Whenever you want to submit a form field to your server, you MUST use the 'name' HTML key -->
