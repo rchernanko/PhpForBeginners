@@ -30,7 +30,7 @@
             "psr-4": { "BusuuTests\\": "tests/_support/" }
         },
 
- TODO - Work out what the PSR-4 is for...
+- PSR-4 is simply a standard for how to autoload classes
 
  - Anyway, once I've run a composer install...if I look at the vendor directory and then the composer directory = there
 is a load of autoloading files in there that show which classes have been loaded and where from.
